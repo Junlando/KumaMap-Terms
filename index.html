@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>クマ出没マップ 利用規約</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", sans-serif;
+      line-height: 1.8;
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+    }
+    .lang-btns {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .lang-btns button {
+      margin: 0 0.5em;
+      padding: 0.5em 1em;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    .lang-section {
+      display: none;
+    }
+    .lang-section.active {
+      display: block;
+    }
+  </style>
+  <script>
+    function switchLang(lang) {
+      document.querySelectorAll('.lang-section').forEach(function(el) {
+        el.classList.remove('active');
+      });
+      document.getElementById(lang).classList.add('active');
+    }
+    window.onload = function() {
+      switchLang('ja');
+    }
+  </script>
+</head>
+<body>
+  <h1>クマ出没マップ 利用規約</h1>
+  <div class="lang-btns">
+    <button onclick="switchLang('ja')">日本語</button>
+    <button onclick="switchLang('en')">English</button>
+    <button onclick="switchLang('zh')">繁體中文</button>
+    
+  </div>
+ <div id="zh" class="lang-section active">
+
+  <h2>一、服務內容</h2>
+  <p>熊出沒地圖（以下簡稱「本 App」）是一款提供日本地區熊出沒、目擊與相關警示資訊之地圖服務。使用者可瀏覽最新的熊出沒地點，或自行回報觀測資訊，協助他人瞭解地區安全狀況，提升防範意識。</p>
+
+  <h2>二、使用者投稿與責任</h2>
+  <p>使用者可透過本 App 回報熊出沒或相關觀測資料，包括地點、描述、照片、及其他資訊。使用者應保證所提供內容真實、準確，並對所提交之資訊承擔全部責任。</p>
+  <p>若使用者提供虛假、誤導或侵害他人權益之資訊，平台有權刪除該內容，並得視情況限制或終止使用者之使用權限。</p>
+
+  <h2>三、隱私與資料使用</h2>
+  <p>本 App 可能蒐集使用者之位置資訊與投稿資料，以供地圖顯示與分析之用。部分資料（如電子郵件）僅用於內容審查或必要聯繫，不會公開或用於行銷。詳情請參閱《隱私權政策》。</p>
+
+  <h2>四、資訊準確性與免責聲明</h2>
+  <p>本 App 所顯示之熊出沒資訊包含使用者上報及外部資料來源。雖我們將盡力維持資訊正確性，但無法保證其完整或即時性。</p>
+  <p>使用者應自行判斷並採取適當的安全措施。本 App 對於因資料誤差、延遲或第三方行為所造成之任何損害不承擔責任。</p>
+
+  <h2>五、禁止事項</h2>
+  <ul>
+    <li>提交虛假、誤導、誹謗、攻擊性或違法內容</li>
+    <li>上傳含有個資、侵犯他人隱私或著作權之內容</li>
+    <li>干擾系統運作、試圖未經授權存取資料</li>
+    <li>濫用回報功能或惡意散布不實資訊</li>
+  </ul>
+
+  <h2>六、資料儲存與系統維護</h2>
+  <p>使用者之回報資料將儲存在雲端系統（如 Firebase 或等效服務）以供審查與分析。平台得基於維護、安全或技術升級之理由，暫時中止或變更部分功能。</p>
+
+  <h2>七、條款修改</h2>
+  <p>平台保留隨時修改本使用條款之權利。若有重大變更，將於 App 內公告或以其他方式通知使用者。使用者於變更後繼續使用本服務，即視為同意新條款。</p>
+
+  <h2>八、責任限制</h2>
+  <p>本 App 以「現狀」提供服務，對因使用本服務所生之直接、間接、附帶或衍生損害，平台概不負責。熊出沒資訊僅供參考，實際安全判斷與行動應由使用者自行決定。</p>
+
+  <h2>九、聯絡方式</h2>
+  <p>若對本使用條款有任何疑問，請聯繫我們：<br>
+  📧 <a href="mailto:junlando.app@gmail.com">junlando.app@gmail.com</a>
+  </p>
+
+</div>
+
+ <div id="en" class="lang-section">
+
+  <h2>1. Service Overview</h2>
+  <p>“Bear Map” (hereinafter “the App”) provides map-based information on bear sightings, reports, and related safety alerts in Japan. Users can browse recent bear activity locations or submit their own sightings to help raise awareness and improve public safety.</p>
+
+  <h2>2. User Submissions and Responsibility</h2>
+  <p>Users may submit reports such as bear sightings, descriptions, photos, and locations. All users are fully responsible for the accuracy and truthfulness of the information they provide.</p>
+  <p>False, misleading, or rights-infringing reports may be deleted, and the platform may suspend or restrict access at its discretion.</p>
+
+  <h2>3. Privacy and Data Usage</h2>
+  <p>The App may collect user location data and report information for map display and analysis. Certain data (e.g., email addresses) are used only for verification or contact during review and will not be shared or used for marketing. For details, please refer to our <strong>Privacy Policy</strong>.</p>
+
+  <h2>4. Accuracy and Disclaimer</h2>
+  <p>The App displays information based on user reports and external data sources. While we strive to ensure accuracy, we cannot guarantee completeness or real-time precision.</p>
+  <p>Users must make their own safety judgments. The App is not liable for damages resulting from inaccurate data, delays, or third-party actions.</p>
+
+  <h2>5. Prohibited Conduct</h2>
+  <ul>
+    <li>Submitting false, misleading, defamatory, or illegal content</li>
+    <li>Uploading content that violates others’ privacy or copyrights</li>
+    <li>Unauthorized system access or interference</li>
+    <li>Misuse of the reporting feature or spreading false information</li>
+  </ul>
+
+  <h2>6. Data Storage and Maintenance</h2>
+  <p>User-submitted data is stored in cloud systems (e.g., Firebase or equivalent) for review and analysis. The platform may suspend or modify parts of the service for maintenance, upgrades, or security reasons.</p>
+
+  <h2>7. Terms Modification</h2>
+  <p>We reserve the right to revise these Terms of Use at any time. Significant changes will be announced within the App or through other channels. Continued use after updates implies acceptance of the new terms.</p>
+
+  <h2>8. Limitation of Liability</h2>
+  <p>The App is provided “as is” without any warranties. The platform is not responsible for direct, indirect, incidental, or consequential damages arising from use of the service. Bear sighting data is for reference only; users should make their own safety decisions.</p>
+
+  <h2>9. Contact</h2>
+  <p>If you have any questions about these Terms of Use, please contact us:<br>
+  📧 <a href="mailto:junlando.app@gmail.com">junlando.app@gmail.com</a>
+  </p>
+
+</div>
+  <div id="ja" class="lang-section">
+
+  <h2>1. サービス内容</h2>
+  <p>「クマ出没マップ」（以下「本アプリ」）は、日本各地のクマ出没・目撃情報および関連する安全警告を地図上で提供するサービスです。ユーザーは最新の出没情報を閲覧したり、自らの観測情報を投稿して地域の安全意識を高めることができます。</p>
+
+  <h2>2. ユーザー投稿と責任</h2>
+  <p>ユーザーは、クマの出没に関する位置情報、説明、写真などを投稿できます。投稿内容の正確性・真実性については、投稿者本人が全ての責任を負います。</p>
+  <p>虚偽や誤解を招く投稿、他者の権利を侵害する内容が確認された場合、本アプリは当該投稿を削除し、必要に応じて利用を制限または停止することがあります。</p>
+
+  <h2>3. プライバシーとデータ利用</h2>
+  <p>本アプリは、地図表示や分析のために位置情報や投稿データを収集する場合があります。一部の情報（メールアドレスなど）は、内容の審査や確認のためにのみ使用され、公開またはマーケティング目的で利用されることはありません。詳細は「プライバシーポリシー」をご参照ください。</p>
+
+  <h2>4. 情報の正確性および免責事項</h2>
+  <p>本アプリに表示される情報は、ユーザー投稿および外部データをもとにしています。正確性を維持するよう努めますが、情報の完全性や即時性を保証するものではありません。</p>
+  <p>ユーザーは自身の判断で安全行動を取るものとし、情報の誤り・遅延・第三者による行為などによって生じた損害について、本アプリは一切の責任を負いません。</p>
+
+  <h2>5. 禁止事項</h2>
+  <ul>
+    <li>虚偽、誤解を招く、誹謗中傷、違法な内容の投稿</li>
+    <li>個人情報や著作権を侵害するコンテンツの投稿</li>
+    <li>システムへの不正アクセスや妨害行為</li>
+    <li>報告機能を乱用し、誤情報を拡散する行為</li>
+  </ul>
+
+  <h2>6. データ保存とメンテナンス</h2>
+  <p>ユーザーの投稿データは、Firebase 等のクラウドサービスに保存され、審査や分析の目的で使用されます。システム保守や安全対策のため、機能の一時停止や変更を行う場合があります。</p>
+
+  <h2>7. 利用規約の変更</h2>
+  <p>本アプリは、予告なく本利用規約を変更する場合があります。重要な変更がある場合は、アプリ内または適切な手段でお知らせします。変更後もサービスを利用した場合は、新しい規約に同意したものとみなされます。</p>
+
+  <h2>8. 責任の制限</h2>
+  <p>本アプリは現状のまま提供されます。利用によって発生した直接的・間接的な損害について、本アプリは一切の責任を負いません。クマ出没情報は参考情報であり、安全判断はユーザー自身の責任において行ってください。</p>
+
+  <h2>9. お問い合わせ</h2>
+  <p>本利用規約に関するお問い合わせは、以下までお願いいたします：<br>
+  📧 <a href="mailto:junlando.app@gmail.com">junlando.app@gmail.com</a>
+  </p>
+
+</div>
+</body>
+</html>
